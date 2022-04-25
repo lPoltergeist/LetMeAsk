@@ -60,7 +60,7 @@ async function handleHighlightQuestion(questionId: string) {
     <div className="content">
         <img src={logoImg} alt="letmeask"/>
         
-        <div>
+        <div className="butao">
         <RoomCode code={params.id || ""}/> {/*arrumar bug | code={roomId} */}
         <Button onClick={handleEndRoom} isOutlined>Encerrar Sala</Button>
         </div>
