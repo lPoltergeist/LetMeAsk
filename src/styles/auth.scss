@@ -31,6 +31,15 @@ aside {
         margin-top: 16px;
         color: #f8f8f8;
     }
+
+    @media (max-width: 780px){
+        display: none;
+    }
+    
+    @media (max-width: 810px){
+        padding: 120px 50px;
+    }
+  
 }
 
 main {
